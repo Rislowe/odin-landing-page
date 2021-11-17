@@ -3,90 +3,87 @@
     <head>
         <title>Odin Landing Page</title>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css">
     </head>
+    
+    <!--The body will acts as a vertical flexbox where we can stack our other blocks-->
     <body>
-
-
-        <!--This is the vertical flexbox where we can stack our other blocks-->
-        <div class="vertical-main">
-            
-            <!--This is for the Header of the website!-->
-            <div class="header-block">
-                <div class="header">
-                    Header Logo
-                    <ul class="links">
-                        <li><a>header link one</a></li>
-                        <li><a>header link two</a></li>
-                        <li><a>header link three</a></li>
-                    </ul>
-                </div>
-
-                <!--This is the container for the 2 flex boxes in the head-->
-                <div class="head-container">
-                    <!--vertical flexbox on the left side of the container-->
-                    <div class="head-left">
-                        <h1>This website is awesome</h1>
-                        <p class="head-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                        <button class="head-button">Sign up</button>
-                    </div>
-
-                    <!--Image that takes up the right side of the container-->
-                    <img class="head-right" src="images/chess.jpg" alt="A black pawn wearing a crown flanked by a row of other black pawns on its right and a row of white pawns on its left."/>
-                </div>
+        <!--This is for the Header of the website!-->
+        <div class="header-block">
+            <div class="header">
+                <div class="logo-text">Header Logo</div>
+                <ul class="links">
+                    <li><a class="link-text" href="google.com">header link one</a></li>
+                    <li><a class="link-text" href="google.com">header link two</a></li>
+                    <li><a class="link-text" href="google.com">header link three</a></li>
+                </ul>
             </div>
 
-            <!--This is the block with the four pictures and subtext-->
-            <div class="pic-block">
+            <!--This is the container for the 2 flex boxes in the head-->
+            <div class="head-container">
+                <!--vertical flexbox on the left side of the container-->
+                <div class="head-left">
+                    <h1>This website is awesome</h1>
+                    <p class="head-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button class="head-button">Sign up</button>
+                </div>
 
-                <!--title for the section-->
-                <div class="title">Some random information.</div>
+                <!--Image that takes up the right side of the container-->
+                <img class="head-right" src="images/chess.jpg" alt="A black pawn wearing a crown flanked by a row of other black pawns on its right and a row of white pawns on its left."/>
+            </div>
+        </div>
 
-                <!--Flexbox that holds all the cards-->
-                <div class="deck">
+        <!--This is the block with the four pictures and subtext-->
+        <div class="pic-block">
 
-                    <!--Cards hold an image and a small description-->
-                    <div class="card">
-                        <img class="card-pic" src="images/psychic-rubiks.jpg" alt="hand with a twisted rubiks cube levitating above it">
-                        <p class="card-text">this is some subtext under an illustration or image</p>
-                    </div>
-                    <div class="card">
-                        <img class="card-pic" src="images/controller.jpg" alt="hand holding a gray controller">
-                        <p class="card-text">this is some subtext under an illustration or image</p>
-                    </div>
-                    <div class="card">
-                        <img class="card-pic" src="images/meeples.jpg" alt="A row of different colored pawns">
-                        <p class="card-text">this is some subtext under an illustration or image</p>
-                    </div>
-                    <div class="card">
-                        <img class="card-pic" src="images/board.jpg" alt="random game pieces on a board">
-                        <p class="card-text">this is some subtext under an illustration or image</p>
-                    </div>
+            <!--title for the section-->
+            <div class="title">Some random information.</div>
+
+            <!--Flexbox that holds all the cards-->
+            <div class="deck">
+
+                <!--Cards hold an image and a small description-->
+                <div class="card">
+                    <img class="card-pic" src="images/psychic-rubiks.jpg" alt="hand with a twisted rubiks cube levitating above it">
+                    <p class="card-text">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card">
+                    <img class="card-pic" src="images/controller.jpg" alt="hand holding a gray controller">
+                    <p class="card-text">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card">
+                    <img class="card-pic" src="images/meeples.jpg" alt="A row of different colored pawns">
+                    <p class="card-text">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card">
+                    <img class="card-pic" src="images/board.jpg" alt="random game pieces on a board">
+                    <p class="card-text">this is some subtext under an illustration or image</p>
                 </div>
             </div>
+        </div>
 
-            <!--This is the block with the quote-->
-            <div class="quote-block">
-                <div class="quote-box">
-                    <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.</div>
-                    <div class="reference">-Thor, God of Thunder</div>
+        <!--This is the block with the quote-->
+        <div class="quote-block">
+            <div class="quote-box">
+                <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.</div>
+                <div class="reference">-Thor, God of Thunder</div>
+            </div>
+        </div>
+
+        <!--This is the block with the blue window (possibly modal) with a signup button-->
+        <div class="action-block">
+            <div class="modal">
+                <div class="text-box">
+                    <div class="modal-heading">Call to action! It's time!</div>
+                    <div class="mod-text">Sign up for our product by clicking that button right over there!</div>
                 </div>
+                <button class="modal-button">Sign up</button>
             </div>
+        </div>
 
-            <!--This is the block with the blue window (possibly modal) with a signup button-->
-            <div class="action-block">
-                <div class="modal">
-                    <div class="text-box">
-                        <div class="modal-heading">Call to action! It's time!</div>
-                        <p>Sign up for our product by clicking that button right over there!</p>
-                    </div>
-                    <button>Sign up</button>
-                </div>
-            </div>
-
-            <!--This is the footer where the copyright goes-->
-            <div class="footer">
-                Copyright &copy; The Odin Project
-            </div>
+        <!--This is the footer where the copyright goes-->
+        <div class="footer">
+            <div class="footer-text">Copyright &copy; The Odin Project 2021</div>
         </div>
     </body>
 

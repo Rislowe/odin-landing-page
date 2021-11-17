@@ -1,0 +1,270 @@
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Bold.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-LightItalic.ttf") format('truetype');
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Light.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-family:'Roboto', sans-serif;
+    padding:0;
+    margin: 0;
+
+    justify-content: center;
+}
+
+.header-block, .footer
+{
+    background-color: #1F2937;
+}
+
+.header-block
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 50px;
+}
+
+
+.logo-text
+{
+    font-weight:700;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h1
+{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+    margin:0;
+    padding:0;
+}
+
+.head-text, .link-text
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    gap: 16px;
+}
+
+.head-container
+{
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    gap: 30px;
+    align-self: center;
+}
+
+.head-left
+{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height:auto;
+
+}
+
+.head-right
+{
+    width: 450px;
+    height: auto;
+}
+
+.head-button
+{
+    background-color: #3882F6;
+    color:white;
+    border: none;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.pic-block
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title
+{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin: 32px 0px;
+}
+
+.deck
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 32px;
+}
+
+.card
+{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.card-pic
+{
+    height: 200px;
+    width: 200px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.card-text
+{
+    flex:1;
+    text-align: center;
+    font-weight: 300;
+}
+
+.quote-block
+{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box
+{
+    display: flex;
+    flex-direction: column;
+    width:800px;
+    margin: 100px 0px;
+}
+
+.quote
+{
+    font-size: 36px;
+    font-weight:300;
+    font-style: italic;
+}
+
+.reference
+{
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 24px;
+    padding-right: 32px;
+}
+
+.action-block
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0px
+}
+
+.modal
+{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 30px 50px;
+    border-radius: 8px;
+}
+
+.text-box
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.mod-text
+{
+    color:#E5E7EB;
+}
+
+.modal-heading
+{
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.modal-button
+{
+    flex-grow: 0;
+    padding: 0px 20px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 0px;
+    color: #F9FAF8;
+    font-size: 14px;
+    font-weight: 300;
+}
